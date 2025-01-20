@@ -1,0 +1,6 @@
+{
+    "rpc_url": "YOUR_RPC_URL",
+    "target_wallet": "WALLET_TO_TRACK",
+    "min_amount": 0.1,
+    "slippage": 1.0
+}

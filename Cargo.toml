@@ -1,0 +1,28 @@
+[package]
+name = "solana_rust_copy_bond"
+version = "1.0.0"
+edition = "2021"
+
+[[bin]]
+name = "solana_rust_copy_bond"
+path = "src/main.rs"  # Fix path to be relative
+
+[dependencies]
+solana-client = "1.14"
+solana-sdk = "1.14"
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+thiserror = "1.0"
+colored = "2.0"
+inquire = "0.6"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+log = "0.4"
+env_logger = "0.10"
+bs58 = "0.4"
+futures = "0.3"
+parking_lot = "0.12"
+dashmap = "5.4"
+aes-gcm = "0.10.1"
+hex = "0.4"
+rand = "0.8"
